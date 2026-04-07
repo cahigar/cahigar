@@ -97,13 +97,13 @@
 
 ## 🔥 Actividad
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=TU_USUARIO&theme=tokyo-night)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cahigar&theme=tokyo-night)
 
 ---
 
 ## 🐍 Contribution Snake
 
-![snake gif](https://github.com/TU_USUARIO/TU_USUARIO/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/cahigar/cahigar/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
