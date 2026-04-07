@@ -17,6 +17,12 @@
 
 ---
 
+## 📫 Contacto
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos%20Hidalgo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carloshidalgogarcia/)
+
+---
+
 ## 🧠 Tecnologías principales
 
 ## 💻 Lenguajes
@@ -98,12 +104,6 @@
 ## 🔥 Actividad
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cahigar&theme=tokyo-night)
-
----
-
-## 🐍 Contribution Snake
-
-![snake gif](https://github.com/cahigar/cahigar/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
