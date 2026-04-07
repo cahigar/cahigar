@@ -93,14 +93,6 @@
 
 ---
 
-## 📊 Estadísticas
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cahigar&show_icons=true&theme=tokyonight&cache_seconds=86400)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cahigar&layout=compact&theme=tokyonight&langs_count=8&cache_seconds=86400)
-
----
-
 ## 🔥 Actividad
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cahigar&theme=tokyo-night)
@@ -139,16 +131,11 @@ Sistema para escritores con:
 
 ## 📈 Métricas avanzadas
 
-![Streak](https://streak-stats.demolab.com?user=TU_USUARIO&theme=tokyonight)
+![Streak](https://streak-stats.demolab.com?user=cahigar&theme=tokyonight)
 
-![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TU_USUARIO&theme=tokyonight)
+![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cahigar&theme=tokyonight)
 
----
-
-## 📫 Contacto
-
-- 💼 LinkedIn: https://www.linkedin.com/in/carloshidalgogarcia/
-- 📧 Email profesional (docencia / proyectos)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cahigar&layout=compact)
 
 ---
 
