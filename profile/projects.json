@@ -1,6 +1,6 @@
 {
   "usuario": "cahigar",
-  "_ayuda": "Proyectos destacados de la portada. Añade uno aquí (o pon el topic 'portfolio' a un repo público) y la Action regenerará las tarjetas. 'repo' es opcional: si el repo es privado, la tarjeta enlaza a 'web'.",
+  "_ayuda": "Proyectos destacados de la portada. Añade uno aquí (o pon el topic 'portfolio' a un repo público) y la Action regenerará las tarjetas. 'repo' es opcional; 'web' es adonde lleva la tarjeta; 'estado' cambia la etiqueta (EN PRODUCCIÓN, DEMO, EN DESARROLLO…).",
   "ocultar": [
     "RepositorioPrueba1",
     "proyecto-grupal-SIGLAS",
@@ -11,14 +11,9 @@
       "id": "grid",
       "repo": "grid",
       "titulo": "G.R.I.D.",
-      "subtitulo": "Gamified Robotics & Instructional Development",
-      "descripcion": "Estrategia isométrica donde el alumnado programa robots en Python y compite en directo con su clase. Intérprete de Python propio en TypeScript.",
-      "tech": [
-        "TypeScript",
-        "Canvas 2D",
-        "Ably",
-        "Postgres"
-      ],
+      "subtitulo": "Programa máquinas, no las controles",
+      "descripcion": "Cada alumno programa en Python drones y robots que exploran, minan, construyen y hackean en un mapa compartido. Rondas de 15 minutos, tutorial y Academia con jefes finales.",
+      "tech": ["TypeScript", "Intérprete Python", "Tiempo real", "Postgres"],
       "web": "https://grid.carloshidalgo.eu",
       "acento": "#22d3ee",
       "icono": "grid"
@@ -28,14 +23,9 @@
       "repo": "plataforma-docente",
       "privado": true,
       "titulo": "CODESEUM",
-      "subtitulo": "Herramientas de juego para el aula",
-      "descripcion": "Preguntorium, Delfos, Cacería y Coding Arena con juez Python aislado, sobre un núcleo docente con evaluación por RA/CE.",
-      "tech": [
-        "Next.js",
-        "PostgreSQL",
-        "Better Auth",
-        "Drizzle"
-      ],
+      "subtitulo": "The Coding Arena",
+      "descripcion": "Arena romana para aprender a programar jugando en clase: Preguntorium, Delfos, Cacería y Coding Arena con juez Python en sandbox, salas en directo y sabotajes.",
+      "tech": ["Next.js", "Juez sandbox", "PostgreSQL", "Gamificación"],
       "web": "https://profesor.carloshidalgo.eu",
       "acento": "#a78bfa",
       "icono": "arena"
@@ -44,31 +34,66 @@
       "id": "prismas",
       "repo": "prismas",
       "titulo": "Prismas",
-      "subtitulo": "Presentaciones para docencia técnica",
-      "descripcion": "Editor de diapositivas con IA integrada y Python que se ejecuta en el navegador. Cada intervención de la IA se deshace con un solo Ctrl+Z.",
-      "tech": [
-        "Next.js 15",
-        "React 19",
-        "Pyodide",
-        "OpenAI"
-      ],
+      "subtitulo": "Presentaciones vivas para docencia técnica",
+      "descripcion": "Python que se ejecuta en la diapositiva, encuestas y lluvia de ideas en directo y edición con IA. Cada clase se exporta como un único HTML. Demo: unidad real de 118 diapositivas.",
+      "tech": ["React", "TypeScript", "Pyodide", "IA generativa"],
+      "web": "https://carloshidalgo.eu/prismas-demo.html",
+      "estado": "DEMO EN VIVO",
       "acento": "#f472b6",
       "icono": "prisma"
+    },
+    {
+      "id": "mooonsters",
+      "privado": true,
+      "titulo": "Mooonsters",
+      "subtitulo": "Multijugador .io en el navegador",
+      "descripcion": "Elige entre 30 monstruos pixel art, caza humanos, esquiva a los cazadores, evoluciona y reina la noche. Gratis, sin descargas, en móvil y PC, en español e inglés.",
+      "tech": ["Multijugador", "Tiempo real", "Pixel art", "Game design"],
+      "web": "https://mooonsters.com",
+      "acento": "#f59e0b",
+      "icono": "luna"
+    },
+    {
+      "id": "hilandolineas",
+      "privado": true,
+      "titulo": "Hilando Líneas",
+      "subtitulo": "Juego diario de comprensión lectora",
+      "descripcion": "Cada día, una historia breve y cinco retos (Detective, El telar, La página que falta, Caza la contradicción, La galería). Gratis, sin registro y con recursos para docentes.",
+      "tech": ["JavaScript", "Juego diario", "Lectura", "Educación"],
+      "web": "https://hilandolineas.es",
+      "acento": "#34d399",
+      "icono": "hilo"
+    },
+    {
+      "id": "nativosia",
+      "titulo": "Nativosia",
+      "subtitulo": "Blog de IA automatizado con agentes",
+      "descripcion": "Agentes autónomos investigan noticias y generan y publican posts sobre IA para familias y docentes, con newsletter, redes sociales y recursos para el aula.",
+      "tech": ["Agentes IA", "Claude API", "WordPress", "Automatización"],
+      "web": "https://nativosia.es",
+      "estado": "ACTIVO",
+      "acento": "#60a5fa",
+      "icono": "agente"
     },
     {
       "id": "nightslord",
       "repo": "nightslord",
       "titulo": "Nights Lord .io",
-      "subtitulo": "Multijugador pixel art en tiempo real",
-      "descripcion": "Monstruos clásicos del terror compiten por la noche. Servidor autoritativo y sprites, mapas y sonido 100 % procedurales.",
-      "tech": [
-        "TypeScript",
-        "Node",
-        "WebSocket",
-        "Canvas"
-      ],
-      "acento": "#f59e0b",
-      "icono": "luna"
+      "subtitulo": "Motor multijugador 100 % procedural",
+      "descripcion": "Servidor autoritativo en Node y cliente Canvas sin motor. Sprites, mapas, iluminación nocturna y sonido generados por código: no hay ni un fichero de imagen.",
+      "tech": ["TypeScript", "Node", "WebSocket", "Canvas"],
+      "acento": "#fb7185",
+      "icono": "murcielago"
+    },
+    {
+      "id": "perfectgarden",
+      "titulo": "Perfect Garden!",
+      "subtitulo": "Libro de puzles + Puzzle Garden Builder",
+      "descripcion": "Puzles de lógica de jardines con misiones de hasta tres estrellas. Detrás, una herramienta propia que crea mapas, valida soluciones con CP-SAT y exporta las páginas del libro.",
+      "tech": ["React", "FastAPI", "OR-Tools", "CP-SAT"],
+      "estado": "EN DESARROLLO",
+      "acento": "#a3e635",
+      "icono": "jardin"
     }
   ]
 }

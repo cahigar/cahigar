@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="272" viewBox="0 0 560 272" role="img" aria-label="Mooonsters">
+  <defs>
+    <linearGradient id="cmooonstersbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1024"/><stop offset="1" stop-color="#05070f"/></linearGradient>
+    <linearGradient id="cmooonstersedge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0"/><stop offset=".5" stop-color="#f59e0b"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="cmooonstersglow" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#f59e0b" stop-opacity=".22"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
+    <filter id="cmooonstersn"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>@keyframes cmooonstersin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}} .cmooonstersa{animation:cmooonstersin .8s ease-out both} .cmooonstersb{animation:cmooonstersin .8s ease-out .2s both} .cmooonstersc{animation:cmooonstersin .8s ease-out .4s both}</style>
+  </defs>
+  <rect x="1" y="1" width="558" height="270" rx="16" fill="url(#cmooonstersbg)" stroke="#1e293b"/>
+  <rect x="1" y="1" width="558" height="270" rx="16" fill="url(#cmooonstersglow)"/>
+  <rect x="24" y="1" width="512" height="2" fill="url(#cmooonstersedge)"/>
+  <g transform="translate(28 26)"><g class="cmooonstersa" filter="url(#cmooonstersn)"><g fill="none" stroke="#f59e0b" stroke-width="2"><path d="M30 6 A18 18 0 1 0 42 34 A14 14 0 1 1 30 6 Z"/><path d="M10 40 L14 34 L18 40 L22 34 L26 40" stroke-opacity=".6"/></g></g></g>
+  <g class="cmooonstersa">
+    <text x="92" y="52" font-family="'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="800" fill="#f8fafc">Mooonsters</text>
+    <text x="92" y="74" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#f59e0b">Multijugador .io en el navegador</text>
+  </g>
+  <rect x="460.4" y="28" width="71.6" height="22" rx="11" fill="#f59e0b" fill-opacity=".14" stroke="#f59e0b" stroke-opacity=".6"/>
+  <text x="496.2" y="43" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing="1" fill="#f59e0b">ONLINE</text>
+  <g class="cmooonstersb" font-family="'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#cbd5e1">
+    <text x="28" y="110">Elige entre 30 monstruos pixel art, caza humanos, esquiva a los</text>
+    <text x="28" y="131">cazadores, evoluciona y reina la noche. Gratis, sin descargas,</text>
+    <text x="28" y="152">en móvil y PC, en español e inglés.</text>
+  </g>
+  <g class="cmooonstersc"><rect x="28" y="200" width="111" height="24" rx="12" fill="#f59e0b" fill-opacity=".10" stroke="#f59e0b" stroke-opacity=".45"/><text x="83.5" y="216" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Multijugador</text><rect x="147" y="200" width="103" height="24" rx="12" fill="#f59e0b" fill-opacity=".10" stroke="#f59e0b" stroke-opacity=".45"/><text x="198.5" y="216" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Tiempo real</text><rect x="258" y="200" width="89" height="24" rx="12" fill="#f59e0b" fill-opacity=".10" stroke="#f59e0b" stroke-opacity=".45"/><text x="302.5" y="216" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Pixel art</text><rect x="355" y="200" width="103" height="24" rx="12" fill="#f59e0b" fill-opacity=".10" stroke="#f59e0b" stroke-opacity=".45"/><text x="406.5" y="216" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Game design</text></g>
+  <text x="532" y="254" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#64748b"></text>
+</svg>

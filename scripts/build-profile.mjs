@@ -96,19 +96,23 @@ const ICONOS = {
   arena: (c) => `<g stroke="${c}" stroke-width="2" fill="none"><path d="M8 40 L8 18 L24 6 L40 18 L40 40 Z"/><path d="M16 40 L16 26 A8 8 0 0 1 32 26 L32 40"/><path d="M8 18 L40 18" stroke-opacity=".5"/></g>`,
   prisma: (c) => `<g fill="none" stroke-width="2"><path d="M24 4 L44 40 L4 40 Z" stroke="${c}"/><path d="M0 24 L18 24" stroke="#e2e8f0"/><path d="M30 22 L48 14" stroke="#22d3ee"/><path d="M31 25 L48 25" stroke="#a78bfa"/><path d="M30 28 L48 36" stroke="#f472b6"/></g>`,
   luna: (c) => `<g fill="none" stroke="${c}" stroke-width="2"><path d="M30 6 A18 18 0 1 0 42 34 A14 14 0 1 1 30 6 Z"/><path d="M10 40 L14 34 L18 40 L22 34 L26 40" stroke-opacity=".6"/></g>`,
+  hilo: (c) => `<g fill="none" stroke="${c}" stroke-width="2"><path d="M6 10 H42 M6 20 H34 M6 30 H40 M6 40 H26"/><path d="M34 36 C40 30 46 38 40 44 C36 48 30 44 34 36 Z" stroke-opacity=".8"/></g>`,
+  agente: (c) => `<g fill="none" stroke="${c}" stroke-width="2"><rect x="8" y="14" width="32" height="24" rx="8"/><circle cx="18" cy="26" r="3" fill="${c}"/><circle cx="30" cy="26" r="3" fill="${c}"/><path d="M24 14 V6 M20 6 H28 M4 24 V30 M44 24 V30"/></g>`,
+  murcielago: (c) => `<g fill="none" stroke="${c}" stroke-width="2" stroke-linejoin="round"><path d="M24 30 L20 22 L22 16 L24 20 L26 16 L28 22 Z"/><path d="M20 22 C14 14 6 16 2 20 C8 22 8 28 10 30 C14 26 18 28 24 30 C30 28 34 26 38 30 C40 28 40 22 46 20 C42 16 34 14 28 22"/></g>`,
+  jardin: (c) => `<g fill="none" stroke="${c}" stroke-width="2"><rect x="4" y="4" width="40" height="40" rx="4" stroke-opacity=".5"/><path d="M4 18 H44 M4 31 H44 M18 4 V44 M31 4 V44" stroke-opacity=".35"/><circle cx="11" cy="11" r="4"/><path d="M24 30 V20 M24 24 C20 22 19 18 20 16 C23 17 25 20 24 24 Z"/><path d="M37 37 l-3 -3 h6 z" fill="${c}"/></g>`,
   repo: (c) => `<g fill="none" stroke="${c}" stroke-width="2"><rect x="8" y="6" width="32" height="36" rx="4"/><path d="M16 16 L22 22 L16 28 M26 28 L34 28"/></g>`,
 };
 
 // ───────────────────────────── tarjeta de proyecto ─────────────────────────────
 function card(p, info) {
-  const W = 560, H = 250, c = p.acento || '#22d3ee';
-  const desc = wrap(p.descripcion || info?.description || '', 62, 3);
+  const W = 560, H = 272, c = p.acento || '#22d3ee';
+  const desc = wrap(p.descripcion || info?.description || '', 64, 4);
   const tech = (p.tech || []).slice(0, 4);
   const chips = [];
   let x = 28;
   for (const t of tech) {
     const w = Math.round(t.length * 7.4 + 22);
-    chips.push(`<rect x="${x}" y="186" width="${w}" height="24" rx="12" fill="${c}" fill-opacity=".10" stroke="${c}" stroke-opacity=".45"/><text x="${x + w / 2}" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="${FONT_MONO}">${esc(t)}</text>`);
+    chips.push(`<rect x="${x}" y="200" width="${w}" height="24" rx="12" fill="${c}" fill-opacity=".10" stroke="${c}" stroke-opacity=".45"/><text x="${x + w / 2}" y="216" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="${FONT_MONO}">${esc(t)}</text>`);
     x += w + 8;
   }
   const meta = [];
@@ -117,7 +121,7 @@ function card(p, info) {
     if (info.primaryLanguage) meta.push(info.primaryLanguage.name);
     meta.push(`push ${hace(info.pushedAt)}`);
   }
-  const badge = p.web ? 'EN PRODUCCIÓN' : p.privado ? 'PRIVADO' : 'OPEN SOURCE';
+  const badge = p.estado ? p.estado : p.web ? 'ONLINE' : p.privado ? 'PRIVADO' : 'OPEN SOURCE';
   const badgeW = badge.length * 7.6 + 26;
   const id = `c${(p.id || p.titulo).replace(/\W/g, '')}`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(p.titulo)}">
@@ -141,11 +145,11 @@ function card(p, info) {
   </g>
   <rect x="${W - 28 - badgeW}" y="28" width="${badgeW}" height="22" rx="11" fill="${c}" fill-opacity=".14" stroke="${c}" stroke-opacity=".6"/>
   <text x="${W - 28 - badgeW / 2}" y="43" text-anchor="middle" font-family="${FONT_MONO}" font-size="10.5" font-weight="700" letter-spacing="1" fill="${c}">${badge}</text>
-  <g class="${id}b" font-family="${FONT_SANS}" font-size="15" fill="#cbd5e1">
-    ${desc.map((l, i) => `<text x="28" y="${114 + i * 22}">${esc(l)}</text>`).join('\n    ')}
+  <g class="${id}b" font-family="${FONT_SANS}" font-size="14.5" fill="#cbd5e1">
+    ${desc.map((l, i) => `<text x="28" y="${110 + i * 21}">${esc(l)}</text>`).join('\n    ')}
   </g>
   <g class="${id}c">${chips.join('')}</g>
-  <text x="${W - 28}" y="232" text-anchor="end" font-family="${FONT_MONO}" font-size="11" fill="#64748b">${esc(meta.join('  ·  '))}</text>
+  <text x="${W - 28}" y="254" text-anchor="end" font-family="${FONT_MONO}" font-size="11" fill="#64748b">${esc(meta.join('  ·  '))}</text>
 </svg>
 `;
 }
