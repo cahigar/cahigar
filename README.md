@@ -86,6 +86,12 @@ class CarlosHidalgo:
 **Últimos movimientos**
 
 <!--RECIENTE:start-->
+| Repo | Qué es | Lenguaje | Último push |
+|:--|:--|:--:|--:|
+| [**nightslord**](https://github.com/cahigar/nightslord) |  | `TypeScript` | hace 4 días |
+| [**grid**](https://github.com/cahigar/grid) | Juego educativo | `TypeScript` | hace 20 días |
+| [**orbita-drones**](https://github.com/cahigar/orbita-drones) |  | `Java` | hace 23 días |
+| [**RepositorioPrueba1**](https://github.com/cahigar/RepositorioPrueba1) | Prueba1 |  | hace 6 meses |
 <!--RECIENTE:end-->
 
 <p align="center">
@@ -104,5 +110,6 @@ class CarlosHidalgo:
 
 <p align="center">
 <!--ACTUALIZADO:start-->
+<sub>⚙️ Secciones regeneradas automáticamente por GitHub Actions · 27 de octubre de 2026 a las 18:41</sub>
 <!--ACTUALIZADO:end-->
 </p>

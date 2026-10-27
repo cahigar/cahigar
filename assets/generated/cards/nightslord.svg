@@ -12,7 +12,7 @@
   <rect x="1" y="1" width="558" height="248" rx="16" fill="url(#cnightslordbg)" stroke="#1e293b"/>
   <rect x="1" y="1" width="558" height="248" rx="16" fill="url(#cnightslordglow)"/>
   <rect x="24" y="1" width="512" height="2" fill="url(#cnightslordedge)"/>
-  <g class="cnightslorda" transform="translate(28 26)" filter="url(#cnightslordn)"><g fill="none" stroke="#f59e0b" stroke-width="2"><path d="M30 6 A18 18 0 1 0 42 34 A14 14 0 1 1 30 6 Z"/><path d="M10 40 L14 34 L18 40 L22 34 L26 40" stroke-opacity=".6"/></g></g>
+  <g transform="translate(28 26)"><g class="cnightslorda" filter="url(#cnightslordn)"><g fill="none" stroke="#f59e0b" stroke-width="2"><path d="M30 6 A18 18 0 1 0 42 34 A14 14 0 1 1 30 6 Z"/><path d="M10 40 L14 34 L18 40 L22 34 L26 40" stroke-opacity=".6"/></g></g></g>
   <g class="cnightslorda">
     <text x="92" y="52" font-family="'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="800" fill="#f8fafc">Nights Lord .io</text>
     <text x="92" y="74" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#f59e0b">Multijugador pixel art en tiempo real</text>
@@ -24,5 +24,5 @@
     <text x="28" y="136">autoritativo y sprites, mapas y sonido 100 % procedurales.</text>
   </g>
   <g class="cnightslordc"><rect x="28" y="186" width="96" height="24" rx="12" fill="#f59e0b" fill-opacity=".10" stroke="#f59e0b" stroke-opacity=".45"/><text x="76" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">TypeScript</text><rect x="132" y="186" width="52" height="24" rx="12" fill="#f59e0b" fill-opacity=".10" stroke="#f59e0b" stroke-opacity=".45"/><text x="158" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Node</text><rect x="192" y="186" width="89" height="24" rx="12" fill="#f59e0b" fill-opacity=".10" stroke="#f59e0b" stroke-opacity=".45"/><text x="236.5" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">WebSocket</text><rect x="289" y="186" width="66" height="24" rx="12" fill="#f59e0b" fill-opacity=".10" stroke="#f59e0b" stroke-opacity=".45"/><text x="322" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Canvas</text></g>
-  <text x="532" y="232" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#64748b"></text>
+  <text x="532" y="232" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#64748b">★ 0  ·  TypeScript  ·  push hace 4 días</text>
 </svg>
