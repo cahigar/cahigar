@@ -16,6 +16,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = join(ROOT, 'assets', 'generated');
 const config = JSON.parse(await readFile(join(ROOT, 'profile', 'projects.json'), 'utf8'));
 const USER = process.env.PROFILE_USER || config.usuario;
+const OCULTAR = new Set((config.ocultar || []).map((n) => n.toLowerCase()));
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 
 const FONT_MONO = "'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace";
@@ -272,7 +273,7 @@ function panel(user) {
 // ───────────────────────────── README ─────────────────────────────
 function seccionReciente(user) {
   const repos = user.repositories.nodes
-    .filter((r) => !r.isFork && !r.isArchived && r.name.toLowerCase() !== USER.toLowerCase())
+    .filter((r) => !r.isFork && !r.isArchived && r.name.toLowerCase() !== USER.toLowerCase() && !OCULTAR.has(r.name.toLowerCase()))
     .slice(0, 5);
   const filas = repos.map((r) => {
     const lang = r.primaryLanguage ? `\`${r.primaryLanguage.name}\`` : '';

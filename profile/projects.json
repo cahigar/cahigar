@@ -1,6 +1,11 @@
 {
   "usuario": "cahigar",
   "_ayuda": "Proyectos destacados de la portada. Añade uno aquí (o pon el topic 'portfolio' a un repo público) y la Action regenerará las tarjetas. 'repo' es opcional: si el repo es privado, la tarjeta enlaza a 'web'.",
+  "ocultar": [
+    "RepositorioPrueba1",
+    "proyecto-grupal-SIGLAS",
+    "proyecto-grupal-cahigar"
+  ],
   "destacados": [
     {
       "id": "grid",
@@ -8,7 +13,12 @@
       "titulo": "G.R.I.D.",
       "subtitulo": "Gamified Robotics & Instructional Development",
       "descripcion": "Estrategia isométrica donde el alumnado programa robots en Python y compite en directo con su clase. Intérprete de Python propio en TypeScript.",
-      "tech": ["TypeScript", "Canvas 2D", "Ably", "Postgres"],
+      "tech": [
+        "TypeScript",
+        "Canvas 2D",
+        "Ably",
+        "Postgres"
+      ],
       "web": "https://grid.carloshidalgo.eu",
       "acento": "#22d3ee",
       "icono": "grid"
@@ -20,7 +30,12 @@
       "titulo": "CODESEUM",
       "subtitulo": "Herramientas de juego para el aula",
       "descripcion": "Preguntorium, Delfos, Cacería y Coding Arena con juez Python aislado, sobre un núcleo docente con evaluación por RA/CE.",
-      "tech": ["Next.js", "PostgreSQL", "Better Auth", "Drizzle"],
+      "tech": [
+        "Next.js",
+        "PostgreSQL",
+        "Better Auth",
+        "Drizzle"
+      ],
       "web": "https://profesor.carloshidalgo.eu",
       "acento": "#a78bfa",
       "icono": "arena"
@@ -31,7 +46,12 @@
       "titulo": "Prismas",
       "subtitulo": "Presentaciones para docencia técnica",
       "descripcion": "Editor de diapositivas con IA integrada y Python que se ejecuta en el navegador. Cada intervención de la IA se deshace con un solo Ctrl+Z.",
-      "tech": ["Next.js 15", "React 19", "Pyodide", "OpenAI"],
+      "tech": [
+        "Next.js 15",
+        "React 19",
+        "Pyodide",
+        "OpenAI"
+      ],
       "acento": "#f472b6",
       "icono": "prisma"
     },
@@ -41,7 +61,12 @@
       "titulo": "Nights Lord .io",
       "subtitulo": "Multijugador pixel art en tiempo real",
       "descripcion": "Monstruos clásicos del terror compiten por la noche. Servidor autoritativo y sprites, mapas y sonido 100 % procedurales.",
-      "tech": ["TypeScript", "Node", "WebSocket", "Canvas"],
+      "tech": [
+        "TypeScript",
+        "Node",
+        "WebSocket",
+        "Canvas"
+      ],
       "acento": "#f59e0b",
       "icono": "luna"
     }
