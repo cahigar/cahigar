@@ -195,14 +195,22 @@ function panel(user) {
   const area = `${line} L${gx + gw} ${gy + gh} L${gx} ${gy + gh} Z`;
   const last = pts[pts.length - 1];
 
-  const stats = [
+  // Métricas adaptativas: las que dependen de la actividad solo salen cuando lucen.
+  const enProd = config.destacados.filter((p) => p.web).length;
+  const mb = total / 1048576;
+  const codigo = mb >= 1 ? `${mb.toFixed(1).replace('.', ',')} MB` : `${Math.round(total / 1024)} KB`;
+  const candidatas = [
+    rAct >= 3 && ['racha actual', `${rAct} d`, '#f472b6'],
+    rMax >= 7 && ['racha máxima', `${rMax} d`, '#a78bfa'],
+    stars >= 5 && ['estrellas', fmt(stars), '#f472b6'],
     ['contribuciones · 12 meses', fmt(cal.totalContributions), '#22d3ee'],
-    ['racha actual', `${rAct} d`, '#f472b6'],
-    ['racha máxima', `${rMax} d`, '#a78bfa'],
-    ['commits', fmt(user.contributionsCollection.totalCommitContributions), '#22d3ee'],
+    ['commits', fmt(user.contributionsCollection.totalCommitContributions), '#a78bfa'],
     ['repos públicos', fmt(user.repositories.totalCount), '#f59e0b'],
-    ['estrellas', fmt(stars), '#f472b6'],
-  ];
+    enProd > 0 && ['proyectos en producción', fmt(enProd), '#34d399'],
+    ['código publicado', codigo, '#f472b6'],
+    ['lenguajes', fmt(langs.size), '#22d3ee'],
+  ].filter(Boolean);
+  const stats = candidatas.slice(0, 6);
   const statSvg = stats.map(([label, val, col], i) => {
     const x = 40 + (i % 2) * 200, y = 70 + Math.floor(i / 2) * 76;
     return `<g style="animation:in .7s ease-out ${0.1 * i}s both"><text x="${x}" y="${y}" font-family="${FONT_SANS}" font-size="34" font-weight="800" fill="${col}">${esc(val)}</text><text x="${x}" y="${y + 22}" font-family="${FONT_MONO}" font-size="11.5" fill="#94a3b8" letter-spacing=".5">${esc(label)}</text></g>`;
