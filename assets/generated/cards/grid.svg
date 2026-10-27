@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="250" viewBox="0 0 560 250" role="img" aria-label="G.R.I.D.">
+  <defs>
+    <linearGradient id="cgridbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1024"/><stop offset="1" stop-color="#05070f"/></linearGradient>
+    <linearGradient id="cgridedge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="cgridglow" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <filter id="cgridn"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>@keyframes cgridin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}} .cgrida{animation:cgridin .8s ease-out both} .cgridb{animation:cgridin .8s ease-out .2s both} .cgridc{animation:cgridin .8s ease-out .4s both}</style>
+  </defs>
+  <rect x="1" y="1" width="558" height="248" rx="16" fill="url(#cgridbg)" stroke="#1e293b"/>
+  <rect x="1" y="1" width="558" height="248" rx="16" fill="url(#cgridglow)"/>
+  <rect x="24" y="1" width="512" height="2" fill="url(#cgridedge)"/>
+  <g class="cgrida" transform="translate(28 26)" filter="url(#cgridn)"><g stroke="#22d3ee" stroke-width="2" fill="none"><path d="M24 4 L44 15 L24 26 L4 15 Z"/><path d="M4 15 L4 33 L24 44 L44 33 L44 15"/><path d="M24 26 L24 44"/><path d="M14 9.5 L34 20.5 M34 9.5 L14 20.5" stroke-opacity=".5"/></g></g>
+  <g class="cgrida">
+    <text x="92" y="52" font-family="'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="800" fill="#f8fafc">G.R.I.D.</text>
+    <text x="92" y="74" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#22d3ee">Gamified Robotics &amp; Instructional Development</text>
+  </g>
+  <rect x="407.2" y="28" width="124.8" height="22" rx="11" fill="#22d3ee" fill-opacity=".14" stroke="#22d3ee" stroke-opacity=".6"/>
+  <text x="469.6" y="43" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing="1" fill="#22d3ee">EN PRODUCCIÓN</text>
+  <g class="cgridb" font-family="'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#cbd5e1">
+    <text x="28" y="114">Estrategia isométrica donde el alumnado programa robots en</text>
+    <text x="28" y="136">Python y compite en directo con su clase. Intérprete de Python</text>
+    <text x="28" y="158">propio en TypeScript.</text>
+  </g>
+  <g class="cgridc"><rect x="28" y="186" width="96" height="24" rx="12" fill="#22d3ee" fill-opacity=".10" stroke="#22d3ee" stroke-opacity=".45"/><text x="76" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">TypeScript</text><rect x="132" y="186" width="89" height="24" rx="12" fill="#22d3ee" fill-opacity=".10" stroke="#22d3ee" stroke-opacity=".45"/><text x="176.5" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Canvas 2D</text><rect x="229" y="186" width="52" height="24" rx="12" fill="#22d3ee" fill-opacity=".10" stroke="#22d3ee" stroke-opacity=".45"/><text x="255" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Ably</text><rect x="289" y="186" width="81" height="24" rx="12" fill="#22d3ee" fill-opacity=".10" stroke="#22d3ee" stroke-opacity=".45"/><text x="329.5" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Postgres</text></g>
+  <text x="532" y="232" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#64748b"></text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="250" viewBox="0 0 560 250" role="img" aria-label="CODESEUM">
+  <defs>
+    <linearGradient id="ccodeseumbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1024"/><stop offset="1" stop-color="#05070f"/></linearGradient>
+    <linearGradient id="ccodeseumedge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="ccodeseumglow" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#a78bfa" stop-opacity=".22"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <filter id="ccodeseumn"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>@keyframes ccodeseumin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}} .ccodeseuma{animation:ccodeseumin .8s ease-out both} .ccodeseumb{animation:ccodeseumin .8s ease-out .2s both} .ccodeseumc{animation:ccodeseumin .8s ease-out .4s both}</style>
+  </defs>
+  <rect x="1" y="1" width="558" height="248" rx="16" fill="url(#ccodeseumbg)" stroke="#1e293b"/>
+  <rect x="1" y="1" width="558" height="248" rx="16" fill="url(#ccodeseumglow)"/>
+  <rect x="24" y="1" width="512" height="2" fill="url(#ccodeseumedge)"/>
+  <g class="ccodeseuma" transform="translate(28 26)" filter="url(#ccodeseumn)"><g stroke="#a78bfa" stroke-width="2" fill="none"><path d="M8 40 L8 18 L24 6 L40 18 L40 40 Z"/><path d="M16 40 L16 26 A8 8 0 0 1 32 26 L32 40"/><path d="M8 18 L40 18" stroke-opacity=".5"/></g></g>
+  <g class="ccodeseuma">
+    <text x="92" y="52" font-family="'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="800" fill="#f8fafc">CODESEUM</text>
+    <text x="92" y="74" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#a78bfa">Herramientas de juego para el aula</text>
+  </g>
+  <rect x="407.2" y="28" width="124.8" height="22" rx="11" fill="#a78bfa" fill-opacity=".14" stroke="#a78bfa" stroke-opacity=".6"/>
+  <text x="469.6" y="43" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing="1" fill="#a78bfa">EN PRODUCCIÓN</text>
+  <g class="ccodeseumb" font-family="'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#cbd5e1">
+    <text x="28" y="114">Preguntorium, Delfos, Cacería y Coding Arena con juez Python</text>
+    <text x="28" y="136">aislado, sobre un núcleo docente con evaluación por RA/CE.</text>
+  </g>
+  <g class="ccodeseumc"><rect x="28" y="186" width="74" height="24" rx="12" fill="#a78bfa" fill-opacity=".10" stroke="#a78bfa" stroke-opacity=".45"/><text x="65" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Next.js</text><rect x="110" y="186" width="96" height="24" rx="12" fill="#a78bfa" fill-opacity=".10" stroke="#a78bfa" stroke-opacity=".45"/><text x="158" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">PostgreSQL</text><rect x="214" y="186" width="103" height="24" rx="12" fill="#a78bfa" fill-opacity=".10" stroke="#a78bfa" stroke-opacity=".45"/><text x="265.5" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Better Auth</text><rect x="325" y="186" width="74" height="24" rx="12" fill="#a78bfa" fill-opacity=".10" stroke="#a78bfa" stroke-opacity=".45"/><text x="362" y="202" text-anchor="middle" font-size="12" fill="#cbd5e1" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">Drizzle</text></g>
+  <text x="532" y="232" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#64748b"></text>
+</svg>

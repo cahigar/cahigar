@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Carlos Hidalgo — IA, código y docencia">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="0.55" stop-color="#0b1024"/>
+      <stop offset="1" stop-color="#140a26"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.6 0;0.6 0;-0.6 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.18" cy="0.3" r="0.45">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.85" cy="0.75" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neon" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1024" stop-opacity="1"/><stop offset="1" stop-color="#0b1024" stop-opacity="0"/></linearGradient>
+    <clipPath id="frame"><rect width="1200" height="360" rx="18"/></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace}
+      .sans{font-family:'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+      @keyframes rise{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:translateY(0)}}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes scan{0%{transform:translateY(-40px)}100%{transform:translateY(400px)}}
+      @keyframes drift{0%{transform:translateY(0)}100%{transform:translateY(-360px)}}
+      @keyframes floorMove{0%{transform:translateY(0)}100%{transform:translateY(24px)}}
+      @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+      @keyframes glitch{0%,92%,100%{transform:translate(0,0)}93%{transform:translate(-3px,1px)}95%{transform:translate(3px,-1px)}97%{transform:translate(-1px,0)}}
+      .r1{animation:rise .9s ease-out both}
+      .r2{animation:rise .9s ease-out .25s both}
+      .r3{animation:rise .9s ease-out .5s both}
+      .r4{animation:rise .9s ease-out .75s both}
+      .cursor{animation:blink 1.1s steps(1) infinite}
+      .scan{animation:scan 6s linear infinite}
+      .floor{animation:floorMove 1.6s linear infinite}
+      .node{animation:pulse 3s ease-in-out infinite}
+      .glitch{animation:glitch 5s infinite}
+      .p{animation:drift linear infinite}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#glowA)"/>
+    <rect width="1200" height="360" fill="url(#glowB)"/>
+
+    <!-- suelo en perspectiva -->
+    <g opacity="0.55">
+      <g class="floor" stroke="url(#floor)" stroke-width="1">
+        <line x1="0" y1="250" x2="1200" y2="250"/>
+        <line x1="0" y1="262" x2="1200" y2="262"/>
+        <line x1="0" y1="278" x2="1200" y2="278"/>
+        <line x1="0" y1="298" x2="1200" y2="298"/>
+        <line x1="0" y1="322" x2="1200" y2="322"/>
+        <line x1="0" y1="350" x2="1200" y2="350"/>
+        <line x1="0" y1="382" x2="1200" y2="382"/>
+      </g>
+      <g stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1">
+        <line x1="600" y1="240" x2="-600" y2="380"/><line x1="600" y1="240" x2="-200" y2="380"/>
+        <line x1="600" y1="240" x2="200" y2="380"/><line x1="600" y1="240" x2="450" y2="380"/>
+        <line x1="600" y1="240" x2="600" y2="380"/><line x1="600" y1="240" x2="750" y2="380"/>
+        <line x1="600" y1="240" x2="1000" y2="380"/><line x1="600" y1="240" x2="1400" y2="380"/>
+        <line x1="600" y1="240" x2="1800" y2="380"/>
+      </g>
+      <rect y="236" width="1200" height="40" fill="url(#horizon)"/>
+    </g>
+
+    <!-- red neuronal a la derecha -->
+    <g transform="translate(860 40)" stroke-width="1.2">
+      <g stroke="#a78bfa" stroke-opacity="0.35">
+        <line x1="0" y1="30" x2="110" y2="0"/><line x1="0" y1="30" x2="110" y2="70"/><line x1="0" y1="30" x2="110" y2="140"/>
+        <line x1="0" y1="110" x2="110" y2="0"/><line x1="0" y1="110" x2="110" y2="70"/><line x1="0" y1="110" x2="110" y2="140"/>
+        <line x1="0" y1="180" x2="110" y2="70"/><line x1="0" y1="180" x2="110" y2="140"/>
+        <line x1="110" y1="0" x2="230" y2="50"/><line x1="110" y1="70" x2="230" y2="50"/><line x1="110" y1="140" x2="230" y2="50"/>
+        <line x1="110" y1="0" x2="230" y2="130"/><line x1="110" y1="70" x2="230" y2="130"/><line x1="110" y1="140" x2="230" y2="130"/>
+      </g>
+      <!-- impulsos que viajan -->
+      <circle r="3" fill="#22d3ee" filter="url(#neon)"><animateMotion dur="2.4s" repeatCount="indefinite" path="M0 30 L110 70 L230 50"/></circle>
+      <circle r="3" fill="#f472b6" filter="url(#neon)"><animateMotion dur="3.1s" begin="0.6s" repeatCount="indefinite" path="M0 180 L110 140 L230 130"/></circle>
+      <circle r="3" fill="#a78bfa" filter="url(#neon)"><animateMotion dur="2.8s" begin="1.2s" repeatCount="indefinite" path="M0 110 L110 0 L230 130"/></circle>
+      <g fill="#0b1024" stroke="#22d3ee" stroke-width="2">
+        <circle class="node" cx="0" cy="30" r="7"/><circle class="node" style="animation-delay:.5s" cx="0" cy="110" r="7"/><circle class="node" style="animation-delay:1s" cx="0" cy="180" r="7"/>
+      </g>
+      <g fill="#0b1024" stroke="#a78bfa" stroke-width="2">
+        <circle class="node" style="animation-delay:.3s" cx="110" cy="0" r="8"/><circle class="node" style="animation-delay:.8s" cx="110" cy="70" r="8"/><circle class="node" style="animation-delay:1.3s" cx="110" cy="140" r="8"/>
+      </g>
+      <g fill="#0b1024" stroke="#f472b6" stroke-width="2">
+        <circle class="node" style="animation-delay:.2s" cx="230" cy="50" r="9"/><circle class="node" style="animation-delay:1.1s" cx="230" cy="130" r="9"/>
+      </g>
+    </g>
+
+    <!-- partículas -->
+    <g fill="#22d3ee">
+      <circle class="p" style="animation-duration:14s" cx="120" cy="380" r="1.6" opacity=".7"/>
+      <circle class="p" style="animation-duration:19s;animation-delay:-6s" cx="340" cy="390" r="1.2" opacity=".5"/>
+      <circle class="p" style="animation-duration:11s;animation-delay:-3s" cx="560" cy="385" r="1.4" opacity=".6"/>
+      <circle class="p" style="animation-duration:17s;animation-delay:-9s" cx="780" cy="395" r="1.1" opacity=".5"/>
+      <circle class="p" style="animation-duration:13s;animation-delay:-4s" cx="1050" cy="380" r="1.5" opacity=".6"/>
+    </g>
+    <g fill="#f472b6">
+      <circle class="p" style="animation-duration:16s;animation-delay:-2s" cx="230" cy="390" r="1.2" opacity=".5"/>
+      <circle class="p" style="animation-duration:21s;animation-delay:-11s" cx="690" cy="380" r="1.3" opacity=".5"/>
+      <circle class="p" style="animation-duration:15s;animation-delay:-7s" cx="1140" cy="390" r="1.1" opacity=".5"/>
+    </g>
+
+    <!-- texto -->
+    <g transform="translate(64 0)">
+      <text class="mono r1" x="0" y="78" font-size="15" fill="#22d3ee" letter-spacing="3">~/cahigar $ <tspan fill="#94a3b8">whoami</tspan><tspan class="cursor" fill="#22d3ee">▍</tspan></text>
+      <g class="glitch">
+        <text class="sans r2" x="0" y="150" font-size="68" font-weight="800" fill="url(#title)" filter="url(#neon)" letter-spacing="-1">Carlos Hidalgo</text>
+      </g>
+      <text class="sans r3" x="2" y="192" font-size="22" fill="#e2e8f0" font-weight="500">Inteligencia artificial · Código · Docencia</text>
+      <g class="r4 mono" font-size="13">
+        <rect x="0" y="212" width="150" height="28" rx="14" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-opacity="0.6"/>
+        <text x="75" y="231" text-anchor="middle" fill="#67e8f9">LLMs · RAG</text>
+        <rect x="162" y="212" width="170" height="28" rx="14" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.6"/>
+        <text x="247" y="231" text-anchor="middle" fill="#c4b5fd">EdTech · Juegos</text>
+        <rect x="344" y="212" width="170" height="28" rx="14" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.6"/>
+        <text x="429" y="231" text-anchor="middle" fill="#f9a8d4">Full-stack · TS</text>
+      </g>
+    </g>
+
+    <!-- línea de escaneo -->
+    <rect class="scan" x="0" y="0" width="1200" height="40" fill="#22d3ee" opacity="0.035"/>
+    <rect x="0.5" y="0.5" width="1199" height="359" rx="18" fill="none" stroke="#22d3ee" stroke-opacity="0.25"/>
+  </g>
+</svg>

@@ -1,149 +1,108 @@
-# 👋 Hola, soy Carlos Hidalgo
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Carlos Hidalgo — Inteligencia artificial · Código · Docencia"/>
+</p>
 
-🎓 Profesor de Programación e Inteligencia Artificial  
-🤖 Especializado en IA, Big Data y desarrollo de soluciones reales  
-💻 Ingeniero en telecomunicaciones  
-📍 Bilbao, España  
+<p align="center">
+  <a href="https://github.com/cahigar">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Construyo+herramientas+con+IA+para+aprender+programando;Juegos+donde+el+alumnado+programa+en+Python+de+verdad;LLMs%2C+RAG+y+agentes+aplicados+a+problemas+reales;Del+aula+a+producci%C3%B3n%3A+TypeScript%2C+Python+y+cloud" alt="Typing SVG"/>
+  </a>
+</p>
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/carloshidalgogarcia/"><img src="https://img.shields.io/badge/LinkedIn-Carlos%20Hidalgo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b1024" alt="LinkedIn"/></a>
+  <a href="https://grid.carloshidalgo.eu"><img src="https://img.shields.io/badge/G.R.I.D.-en%20vivo-22D3EE?style=for-the-badge&logo=gamejolt&logoColor=white&labelColor=0b1024" alt="G.R.I.D. en vivo"/></a>
+  <a href="https://profesor.carloshidalgo.eu"><img src="https://img.shields.io/badge/CODESEUM-en%20vivo-A78BFA?style=for-the-badge&logo=googleclassroom&logoColor=white&labelColor=0b1024" alt="CODESEUM en vivo"/></a>
+  <img src="https://komarev.com/ghpvc/?username=cahigar&style=for-the-badge&color=f472b6&label=VISITAS" alt="Visitas"/>
+</p>
 
-## 🚀 Sobre mí
+<br/>
 
-- 👨‍🏫 Docente en Inteligencia Artificial y Desarrollo de Software  
-- 🧠 Enfocado en **IA aplicada a negocio (automatización, NLP, visión)**  
-- ⚙️ Desarrollo APIs con **FastAPI + Python + SQL**  
-- 🧪 Trabajo con **LLMs locales (Ollama, RAG, embeddings)**  
-- 🧰 Experiencia en entornos reales con estudiantes y empresas  
+```python
+class CarlosHidalgo:
+    rol       = "Profesor de Programación e IA · Ingeniero de Telecomunicaciones"
+    base      = "Bilbao, España 🇪🇸"
+    enseño    = ["Python", "Entornos de Desarrollo", "Cloud Computing", "Programación de IA"]
+    construyo = ["juegos educativos", "plataformas docentes", "apps con LLMs", "sistemas RAG"]
+    me_mueve  = "que aprender a programar se sienta como jugar, y que la IA sume, no sustituya"
 
----
+    def ahora(self):
+        return ["G.R.I.D. en el aula", "CODESEUM", "Prismas + IA", "agentes y LLMs locales"]
+```
 
-## 📫 Contacto
+## 🚀 Proyectos destacados
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos%20Hidalgo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carloshidalgogarcia/)
+<!--PROYECTOS:start-->
+<p align="center">
+<a href="https://grid.carloshidalgo.eu"><img src="assets/generated/cards/grid.svg" width="49%" alt="G.R.I.D. — Gamified Robotics &amp; Instructional Development"/></a>
+<a href="https://profesor.carloshidalgo.eu"><img src="assets/generated/cards/codeseum.svg" width="49%" alt="CODESEUM — Herramientas de juego para el aula"/></a>
+<a href="https://github.com/cahigar/prismas"><img src="assets/generated/cards/prismas.svg" width="49%" alt="Prismas — Presentaciones para docencia técnica"/></a>
+<a href="https://github.com/cahigar/nightslord"><img src="assets/generated/cards/nightslord.svg" width="49%" alt="Nights Lord .io — Multijugador pixel art en tiempo real"/></a>
+</p>
+<!--PROYECTOS:end-->
 
----
+<sub>Los que dicen <b>EN PRODUCCIÓN</b> están desplegados y se usan con alumnado real. Clic en cualquier tarjeta para verlo.</sub>
 
-## 🧠 Tecnologías principales
+## 🧠 Stack
 
-## 💻 Lenguajes
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,java,html,css,react,nextjs,nodejs,vite,tailwind&theme=dark&perline=11" alt="Lenguajes y frontend"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=fastapi,postgres,mysql,sqlite,docker,vercel,linux,bash,git,postman,windows&theme=dark&perline=11" alt="Backend y cloud"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=tensorflow,sklearn,opencv,godot,unity,wordpress,vscode,github,githubactions,md&theme=dark&perline=11" alt="IA, juegos y herramientas"/>
+</p>
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Bash](https://img.shields.io/badge/-Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Markdown](https://img.shields.io/badge/-Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### ⚙️ Backend & IA
-![FastAPI](https://img.shields.io/badge/-FastAPI-000?&logo=fastapi)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=tensorflow)
-![Pandas](https://img.shields.io/badge/-Pandas-000?&logo=pandas)
-![NumPy](https://img.shields.io/badge/-NumPy-000?&logo=numpy)
+**🤖 IA aplicada**
+- LLMs locales y en la nube (Ollama, OpenAI)
+- RAG con embeddings y FAISS · LangChain
+- Sistemas multiagente y *tool use*
+- Visión artificial con OpenCV y MediaPipe
+- NLP y procesamiento de documentos
 
-## 🤖 IA, Machine Learning y LLMs
+</td>
+<td width="50%" valign="top">
 
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/-ScikitLearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+**🎓 Docencia que se programa**
+- Juegos donde se aprende escribiendo código
+- Plataformas con evaluación por RA/CE
+- Material técnico con Python ejecutable
+- Proyectos reales para el alumnado
+- Mentoría en IA y desarrollo profesional
 
-## 🧠 LLMs, RAG y AI Systems
+</td>
+</tr>
+</table>
 
-![Ollama](https://img.shields.io/badge/-Ollama-000000?style=for-the-badge)
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge)
-![FAISS](https://img.shields.io/badge/-FAISS-005571?style=for-the-badge)
-![Transformers](https://img.shields.io/badge/-HuggingFace-FCC624?style=for-the-badge&logo=huggingface&logoColor=black)
+## 📡 En directo
 
-- 🔎 Retrieval-Augmented Generation (RAG)
-- 🧩 Sistemas multi-agente
-- 🏠 LLMs locales (Ollama)
-- 📚 Embeddings (sentence-transformers)
-- 🔐 Diseño de prompts seguros y orientados a negocio
+<p align="center">
+  <img src="assets/generated/panel.svg" width="100%" alt="Panel de actividad: contribuciones, rachas y lenguajes"/>
+</p>
 
-## 🏗️ Herramientas y Plataformas
+**Últimos movimientos**
 
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+<!--RECIENTE:start-->
+<!--RECIENTE:end-->
 
-## ⚙️ IA aplicada
-
-- 🤖 Automatización de procesos con IA  
-- 🧾 Procesamiento de documentos (NLP)  
-- 👁️ Visión artificial (OpenCV, MediaPipe)  
-- 💬 Asistentes inteligentes  
-- 📊 Análisis de datos y predicción  
-- 🔗 Integración IA + APIs + bases de datos  
-
-## 🎓 Docencia
-
-- 👨‍🏫 Profesor de Programación e Inteligencia Artificial  
-- 📚 Desarrollo de materiales didácticos  
-- 🎯 Proyectos reales para estudiantes  
-- 🧠 Mentoría en IA y desarrollo profesional  
-- 🏢 Colaboración con centros educativos y empresas  
-
----
-
-## 🔥 Actividad
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cahigar&theme=tokyo-night)
-
----
-
-## 📂 Proyectos destacados
-
-### 🤖 Plataforma IA (Lore)
-Sistema para escritores con:
-- Estructuración narrativa
-- IA para generación y reescritura
-- RAG contextual
-- API con FastAPI
-
-### 🚇 Automatización Metro Bilbao
-- Análisis de datos
-- Predicción de afluencia
-- Automatización de procesos
-
-### 📦 API Logística
-- Gestión de envíos
-- Integración con base de datos
-- Endpoints REST reales
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cahigar/cahigar/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cahigar/cahigar/output/github-contribution-grid-snake.svg"/>
+    <img alt="Serpiente comiéndose el gráfico de contribuciones" src="https://raw.githubusercontent.com/cahigar/cahigar/output/github-contribution-grid-snake-dark.svg"/>
+  </picture>
+</p>
 
 ---
 
-## 🧩 En qué estoy trabajando ahora
+<p align="center">
+  <i>«La IA no sustituye a los programadores… sustituye a los que no entienden lo que hacen.»</i>
+</p>
 
-- 🔧 Sistemas multi-agente con IA  
-- 🧠 Mejora de rendimiento en LLMs locales  
-- 🏗️ Proyectos educativos con impacto real  
-- 🌐 Integración IA + web (WordPress + APIs)  
-
----
-
-## 📈 Métricas avanzadas
-
-![Streak](https://streak-stats.demolab.com?user=cahigar&theme=tokyonight)
-
-![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cahigar&theme=tokyonight)
-
-## 💻 Lenguajes más usados
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cahigar&theme=tokyonight)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=cahigar&theme=tokyonight)
-
----
-
-## ⚡ Filosofía
-
-> "La IA no sustituye a los programadores… sustituye a los que no entienden lo que hacen."
-
----
+<p align="center">
+<!--ACTUALIZADO:start-->
+<!--ACTUALIZADO:end-->
+</p>
