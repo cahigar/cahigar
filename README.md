@@ -88,10 +88,10 @@ class CarlosHidalgo:
 <!--RECIENTE:start-->
 | Repo | Qué es | Lenguaje | Último push |
 |:--|:--|:--:|--:|
-| [**nightslord**](https://github.com/cahigar/nightslord) |  | `TypeScript` | hace 4 días |
-| [**grid**](https://github.com/cahigar/grid) | Juego educativo | `TypeScript` | hace 20 días |
-| [**orbita-drones**](https://github.com/cahigar/orbita-drones) |  | `Java` | hace 23 días |
-| [**RepositorioPrueba1**](https://github.com/cahigar/RepositorioPrueba1) | Prueba1 |  | hace 6 meses |
+| [**prismas**](https://github.com/cahigar/prismas) | Editor de presentaciones para docencia técnica con IA integrada y Python ejecutable en el navegador (Next.js · React · Pyodide · OpenAI) | `TypeScript` | hoy |
+| [**nightslord**](https://github.com/cahigar/nightslord) | 🦇 Juego multijugador .io en pixel art: monstruos clásicos del terror cazan de noche. Servidor autoritativo en Node y sprites, mapas y sonido 100 % procedurales. | `TypeScript` | hace 4 días |
+| [**grid**](https://github.com/cahigar/grid) | 🤖 Juego de estrategia isométrico donde el alumnado programa robots en Python y compite en directo con su clase. Intérprete Python propio en TypeScript. | `TypeScript` | hace 20 días |
+| [**orbita-drones**](https://github.com/cahigar/orbita-drones) | 🛰️ Proyecto de prácticas en Java para aprender Git: commits, ramas, pull requests y conflictos sobre una tienda de drones orbitales (1.º DAM · Entornos de Desarrollo). | `Java` | hace 23 días |
 <!--RECIENTE:end-->
 
 <p align="center">
@@ -110,6 +110,6 @@ class CarlosHidalgo:
 
 <p align="center">
 <!--ACTUALIZADO:start-->
-<sub>⚙️ Secciones regeneradas automáticamente por GitHub Actions · 27 de octubre de 2026 a las 18:41</sub>
+<sub>⚙️ Secciones regeneradas automáticamente por GitHub Actions · 27 de octubre de 2026 a las 18:45</sub>
 <!--ACTUALIZADO:end-->
 </p>
