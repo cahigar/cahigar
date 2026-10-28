@@ -27,7 +27,7 @@ class CarlosHidalgo:
     rol        = "Ingeniero de Telecomunicaciones · Docente de FP en IA y Big Data · Builder"
     base       = "Bilbao, España 🇪🇸"
     idiomas    = ["Español", "Inglés C1"]
-    enseño     = ["Programación de IA", "Python", "Servicios y Procesos", "Aplicaciones Web"]
+    enseño     = ["Programación de IA", "Python", "Servicios y Procesos", "Aplicaciones Web", "Cloud Computing"]
     construyo  = ["juegos educativos", "asistentes con RAG", "APIs con FastAPI", "agentes", "webs reales"]
     vengo_de   = ["RF y microondas", "smart grids", "redes satelitales VSAT/Starlink"]
 
