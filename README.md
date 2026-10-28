@@ -42,10 +42,9 @@ class CarlosHidalgo:
 <a href="https://grid.carloshidalgo.eu"><img src="assets/generated/cards/grid.svg" width="49%" alt="G.R.I.D. — Programa máquinas, no las controles"/></a>
 <a href="https://profesor.carloshidalgo.eu"><img src="assets/generated/cards/codeseum.svg" width="49%" alt="CODESEUM — The Coding Arena"/></a>
 <a href="https://carloshidalgo.eu/prismas-demo.html"><img src="assets/generated/cards/prismas.svg" width="49%" alt="Prismas — Presentaciones vivas para docencia técnica"/></a>
-<a href="https://mooonsters.com"><img src="assets/generated/cards/mooonsters.svg" width="49%" alt="Mooonsters — Multijugador .io en el navegador"/></a>
+<a href="https://mooonsters.com"><img src="assets/generated/cards/mooonsters.svg" width="49%" alt="Mooonsters — Multijugador .io · antes Nights Lord"/></a>
 <a href="https://hilandolineas.es"><img src="assets/generated/cards/hilandolineas.svg" width="49%" alt="Hilando Líneas — Juego diario de comprensión lectora"/></a>
 <a href="https://nativosia.es"><img src="assets/generated/cards/nativosia.svg" width="49%" alt="Nativosia — Blog de IA automatizado con agentes"/></a>
-<a href="https://github.com/cahigar/nightslord"><img src="assets/generated/cards/nightslord.svg" width="49%" alt="Nights Lord .io — Motor multijugador 100 % procedural"/></a>
 <a href="#"><img src="assets/generated/cards/perfectgarden.svg" width="49%" alt="Perfect Garden! — Libro de puzles + Puzzle Garden Builder"/></a>
 </p>
 <!--PROYECTOS:end-->
